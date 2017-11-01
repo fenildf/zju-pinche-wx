@@ -1,6 +1,13 @@
+import api from "api"
+
 //app.js
 App({
   onLaunch: function () {
+    console.log(api)
+    api.get("/").catch((err)=>{
+      console.log(err)
+    })
+
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
