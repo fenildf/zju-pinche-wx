@@ -1,4 +1,4 @@
-/* login.wxss */
+/* pages/signup/signup.wxss */
 button{
   margin-top: 10px;
   margin-bottom: 10px;

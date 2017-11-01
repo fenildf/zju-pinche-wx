@@ -1,2 +1,11 @@
-<!--login.wxml-->
-<text>login.wxml</text>
+<view class="container">
+  <view id="login-form">
+    <label for="studentId">学号</label>
+    <input id="studentId" type="number" confirm-type="next"/>
+    <label for="password">密码</label>
+    <input id="password" type="password" confirm-type="next"/>
+    <button type="primary">登录</button>
+    <button bindtap="goSignupPage">没有账号？点我注册</button>
+  </view>
+  
+</view>

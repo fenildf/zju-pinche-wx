@@ -1,0 +1,16 @@
+<view class="container">
+  <view id="login-form">
+    <label for="studentId">学号</label>
+    <input id="studentId" type="number" confirm-type="next"/>
+    <label for="password">密码</label>
+    <input id="password" type="password" confirm-type="next"/>
+    <label for="nickName">昵称</label>
+    <input id="nickName" type="text" confirm-type="next"/>
+    <label for="phone">手机号（选填）</label>
+    <input id="phone" type="number" confirm-type="next"/> 
+    <label for="wechat">微信（选填）</label>
+    <input id="wechat" type="text" confirm-type="next"/> 
+    <button type="primary">注册</button>
+  </view>
+  
+</view>

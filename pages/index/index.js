@@ -15,6 +15,11 @@ Page({
       url: '../logs/logs'
     })
   },
+  goLoginPage(){
+    wx.navigateTo({
+      url: '../login/login',
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

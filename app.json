@@ -2,12 +2,14 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/signup/signup"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "backgroundColor": "#eee",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "ZJU拼车",
     "navigationBarTextStyle": "black"
   }
 }
